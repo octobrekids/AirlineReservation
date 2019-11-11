@@ -1,0 +1,178 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow: scroll;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    bottom: 15%;
+    height: 100%;
+    top:10%;
+}
+
+.card-container {
+    background-color: #ffffff;
+}
+
+.form-center {
+    margin-top: 5%;
+    margin-left: 27%;
+    margin-bottom: -2%;
+}
+
+.form-check-center {
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: -2%;
+}
+
+.form-control {
+    margin-right: 0.25%;
+}
+
+.form-check-inline {
+    margin-top: 2%; 
+    margin-left: 7%;
+}
+
+.button-space {
+    margin-left: 500px;
+}
+
+.check-space {
+    padding-right: 50px;
+}
+
+.navbar-right{
+    margin-left: 70%;
+}
+
+.navbar-btn {
+    padding: 10px,20px;
+    width: 150px;
+    text-align: center;
+}
+
+.navbar-left{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+.total{
+    margin-top: 10px;
+}
+
+.btn-sample { 
+    color: #ffffff; 
+    background-color: #611BBD; 
+    border-color: #130269; 
+  } 
+
+  .mini-describe{
+      font-size: 1em;
+  }
+
+  .bottom-margin{
+      margin-bottom: 100px;
+  }
+
+  .button-item{
+      background-color: #ffffff;
+      height: 150px;
+      width:100%;
+      cursor: pointer;
+      margin: 5px;
+      text-align: center;
+      border-style: solid;
+      border-width: 1px;
+      border-color: #ffffff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .button-header{
+    padding-top: 25px;
+    font-size:60px;
+  }
+
+  i {
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+
+  .button-bottom{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+
+.myTable th,
+.myTable td {
+    text-align: left;
+    padding: 12px;
+}
+
+.myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.myTable tr.header,
+.myTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.myInput {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 25%;
+    font-size: 16px;
+    padding: 8px 20px 8px 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
